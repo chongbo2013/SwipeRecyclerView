@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView 
+        android:textSize="16.0sp" 
+        android:textColor="#ffffffff" 
+        android:gravity="bottom|center" 
+        android:id="@+id/intro" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:minHeight="40.0dip" 
+        android:text="加载更多" android:singleLine="false" />
+    <FrameLayout 
+        android:layout_gravity="bottom|center" 
+        android:id="@+id/anim_view" 
+        android:clipChildren="true" 
+        android:layout_width="fill_parent" 
+        android:layout_height="100.0dip">
+        <ImageView 
+            android:layout_gravity="top|center" 
+            android:id="@+id/scan_meter" 
+            android:layout_width="210.0dip" 
+            android:layout_height="210.0dip" 
+            android:layout_marginTop="-5.0dip" 
+            android:src="@drawable/folder_radar_center_meter" 
+            android:scaleType="fitXY" 
+            android:contentDescription="nil" />
+        <ImageView 
+            android:layout_gravity="bottom|center" 
+            android:id="@+id/scan_indicator" 
+            android:layout_width="146.0dip" 
+            android:layout_height="73.0dip" 
+            android:src="@drawable/radar_scan_indicator"
+			android:scaleType="fitXY" 
+			android:contentDescription="nil" />
+    </FrameLayout>
+</merge>

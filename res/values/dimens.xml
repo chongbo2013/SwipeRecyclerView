@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="app_icon_width">56dip</dimen>
+    <dimen name="app_icon_height">70dip</dimen>
+    <dimen name="icon_width">56dip</dimen>
+
+    
+     <dimen name="pading_height">80dp</dimen>
+    <dimen name="leida_hight">100dp</dimen>
+    
+      <dimen name="boost_text_size">80dp</dimen>
+    <dimen name="boost_small_text_size">100dp</dimen>
+    <dimen name="boost_symbol_size">100dp</dimen>
+    <dimen name="boost_stroke">100dp</dimen>
+    <dimen name="boost_img_width">100dp</dimen>
+    <dimen name="boost_icon_size">100dp</dimen>
+</resources>

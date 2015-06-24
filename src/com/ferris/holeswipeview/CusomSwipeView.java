@@ -186,7 +186,7 @@ public class CusomSwipeView extends RecyclerView {
 			removeDirection = RemoveDirection.RIGHT;
 			final int delta = (screenWidth + itemView.getScrollY());
 			// 调用startScroll方法来设置一些滚动的参数，我们在computeScroll()方法中调用scrollTo来滚动item
-			scroller.startScroll(0, itemView.getScrollY(), -delta, 0,
+			scroller.startScroll(0, itemView.getScrollY(),0,  -delta,
 					Math.abs(delta));
 			postInvalidate(); // 刷新itemView
 		}
@@ -207,7 +207,7 @@ public class CusomSwipeView extends RecyclerView {
 			removeDirection = RemoveDirection.LEFT;
 			final int delta = (screenWidth - itemView.getScrollY());
 			// 调用startScroll方法来设置一些滚动的参数，我们在computeScroll()方法中调用scrollTo来滚动item
-			scroller.startScroll(0, itemView.getScrollY(), delta, 0,
+			scroller.startScroll(0, itemView.getScrollY(), 0, delta,
 					Math.abs(delta));
 			postInvalidate(); // 刷新itemView
 		}

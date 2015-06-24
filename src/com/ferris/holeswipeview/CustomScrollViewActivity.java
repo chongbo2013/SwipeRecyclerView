@@ -33,7 +33,7 @@ public class CustomScrollViewActivity extends Activity {
 		adapter=new ApplicationAdapter(getApplicationContext(), applicationBeams);
 		//设置布局管理器  
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this); 
-        linearLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);  
+        linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);  
         sl.setLayoutManager(linearLayoutManager);  
 		sl.setAdapter(adapter);
 		sl.setRemoveListener(new RemoveListener() {
